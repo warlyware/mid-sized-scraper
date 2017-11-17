@@ -10,6 +10,5 @@ xray('https://medium.com/tag/react/', '.postArticle', [{
   author: '.postMetaInline-authorLockup a:nth-child(1)',
   publication: '.postMetaInline-authorLockup a:nth-child(2)',
 }])
-.paginate('.nav-previous a@href')
 .limit(3)
 .write('results.json');
